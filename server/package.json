@@ -1,0 +1,27 @@
+{
+  "name": "fast-connect-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunnyallana/fast-connect.git"
+  },
+  "author": "Sunny & Hamza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunnyallana/fast-connect/issues"
+  },
+  "homepage": "https://github.com/sunnyallana/fast-connect#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
