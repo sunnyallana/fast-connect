@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*********** Colors ****************/
+:root {
+  --font-color: #333;
+  --background-color: #fff;
+  --purple: #7f23ff;
+  --color-light-pink: #cf59e6;
+  --color-light-blue: #6bc5f8;
+  --cyan: #03e6ff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/************ Default Css ************/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+/******************** Base Styles ******************************/
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: var(--background-color);
+  color: var(--font-color);
+  font-family: 'Centra', sans-serif;
+  font-size: 1rem;
+}
+
+/* Reset text-decoration for all elements */
+a, p, li, button, ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
 }
